@@ -9,7 +9,7 @@ api_hash = '94f34e67625502bc30c3aa29cf49fab7'
 phone_number = '5581995483906'
 
 # Sessão
-session_dir = '/home/runner/workspace/replit_session'
+session_dir = './sessions'  # Alterado para a pasta do projeto
 if not os.path.exists(session_dir):
     os.makedirs(session_dir)
 
